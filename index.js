@@ -61,3 +61,10 @@ function isNegative(num) {
     }
 }
 console.log(isNegative(23))
+
+// number 8 
+function triangleArea(h, b){    
+    return (h * b) / 2
+}
+
+console.log(triangleArea(7,5))
