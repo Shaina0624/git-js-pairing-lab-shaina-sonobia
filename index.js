@@ -37,3 +37,9 @@ function untilNum(num) {
    } 
 }
 console.log(untilNum(5))
+
+//number5
+function multiply(num1, num2) {
+    return num1 * num2
+}
+console.log(multiply(2, 3))
