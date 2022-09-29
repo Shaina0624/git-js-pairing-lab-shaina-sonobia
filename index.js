@@ -49,8 +49,15 @@ function add(num1, num2) {
     if (num1 === num2){
     return ( num1 + num2 ) * 3  
     } else { return num1 + num2} 
-  
-    
-
 }
 console.log(add(2, 3))
+
+//number 7
+function isNegative(num) {
+    if (num < 0){
+    return true
+    }else {
+    return false
+    }
+}
+console.log(isNegative(23))
