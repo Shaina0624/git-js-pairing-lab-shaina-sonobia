@@ -11,8 +11,18 @@ console.log(fiveToOneHundred());
 // number 2
 function multiplesOfThree(){
     for( let i = 1 ; i <= 100; i++){
-        if( i % 3 === 0){
+        if(i % 3 === 0){
         console.log(i)}
     }
 }
 console.log(multiplesOfThree());
+
+// number 3
+function multiplesOfThreeOrFive() {
+    for( let i = 1 ; i <= 100; i++){
+        if (i % 3 === 0 || i % 5 === 0){
+            console.log(i)  
+        } 
+    }
+}
+console.log(multiplesOfThreeOrFive());
