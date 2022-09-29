@@ -43,3 +43,14 @@ function multiply(num1, num2) {
     return num1 * num2
 }
 console.log(multiply(2, 3))
+
+//number 6
+function add(num1, num2) {
+    if (num1 === num2){
+    return ( num1 + num2 ) * 3  
+    } else { return num1 + num2} 
+  
+    
+
+}
+console.log(add(2, 3))
